@@ -20,6 +20,13 @@ provide a reasonably functional Lisp Machine experience.
 
 Just run =make=, if it doesn't work then it probobly isn't supported.
 
+Try also to run flex and bison by hand using:
+
+$ cmake .
+$ flex ccl.l
+$ bison -d ccy.y
+$ make
+
 * Quick-start
 
 Build =usim= and all related code as described above.  Then download
