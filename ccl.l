@@ -4,7 +4,7 @@
 %{
 #include <stdio.h>
 
-#include "y.tab.h"
+#include "ccy.tab.h"
 
 extern int yylval;
 %}
