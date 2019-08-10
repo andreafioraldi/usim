@@ -14,7 +14,7 @@ include_directories(${CMAKE_CURRENT_BINARY_DIR})
 include_directories(${X11_INCLUDE_DIR})
 link_directories(${X11_LIBRARIES})
 
-add_executable(usim usim.c ucode.c mem.c iob.c mouse.c kbd.c tv.c x11.c chaos.c disk.c ini.c ucfg.c trace.c disass.c syms.c misc.c)
+add_executable(usim usim.c ucode.c mem.c iob.c mouse.c kbd.c cadet.c knight.c tv.c x11.c chaos.c disk.c ini.c ucfg.c trace.c disass.c syms.c misc.c)
 target_link_libraries(usim ${X11_LIBRARIES})
 
 add_executable(readmcr readmcr.c disass.c misc.c syms.c)
